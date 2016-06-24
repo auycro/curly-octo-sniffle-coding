@@ -1,3 +1,4 @@
+#Day 1 with SQL
 ####The problem sql sentence
 There is a sql sentence that we use to find summation of the consume item. 
 ```sql
@@ -14,7 +15,7 @@ WHERE
     and u.id not in (select user_id from bot)
     and amount < 0
 ```
-The above sql's running time is ...... (I don't wait until it finished 555555)
+The above sql's running time is ...... (I didn't wait until it finished)
 
 Let's take a look at records number.
 
