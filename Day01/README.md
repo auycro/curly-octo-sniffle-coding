@@ -15,7 +15,7 @@ WHERE
     and u.id not in (select user_id from bot)
     and amount < 0
 ```
-The above sql's running time is ...... (I didn't wait until it finished)
+The above sql's running time is ...... (I didn't wait until it finished)<br/>
 I tried this again and wait until it finished 01:04:04.
 
 Let's take a look at records number.
