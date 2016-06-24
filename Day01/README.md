@@ -66,3 +66,4 @@ FROM
     ) uam
     on bl.users_app_mode_id = uam.id
 ```
+And, [this](http://stackoverflow.com/questions/354070/sql-join-where-clause-vs-on-clause) is the answer for this problem
