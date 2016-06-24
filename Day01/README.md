@@ -1,6 +1,6 @@
 #Day 1 with SQL
-####The problem sql sentence
-There is a sql sentence that we use to find summation of the consume item. 
+####The problem sql
+There is a sql script that we use to find summation of the consume item. 
 ```sql
 SELECT 
     SUM(-amount) AS consume
