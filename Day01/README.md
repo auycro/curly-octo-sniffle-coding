@@ -27,6 +27,25 @@ Let's take a look at records number.
 | bot           |            20|
 
 ####After improving
+The first sql is finished in 00:02:05
+```sql
+SELECT 
+    SUM(-amount) AS consume
+FROM
+    (
+      select * from 
+      balance_logs 
+      where timestamp between '2016-06-13 08:00:00' and '2016-06-21 08:00:00' 
+    ) bl,
+    users_app_modes uam,
+    users u
+WHERE 
+    bl.users_app_mode_id = uam.id
+    and uam.user_id = u.id
+    and u.id not in (select user_id from bots)
+    and amount < 0
+```
+
 The following sql is finished in 00:01:07
 ```sql
 SELECT 
