@@ -16,6 +16,7 @@ WHERE
     and amount < 0
 ```
 The above sql's running time is ...... (I didn't wait until it finished)
+I tried this again and wait until it finished 01:04:04.
 
 Let's take a look at records number.
 
