@@ -42,7 +42,12 @@ function CoordinateToXYList(coordinates){
   return [x_list,y_list];
 }
 
-var test_data = [[1,1],[1,5],[5,5],[5,1]];
-var XYList = CoordinateToXYList(test_data);
+function main() {
+  var test_data = [[1,1],[1,5],[5,5],[5,1]];
+  var XYList = CoordinateToXYList(test_data);
+  PolygonArea(XYList[0],XYList[1]);
+  
+  return 'Hello, World!';
+}
 
-PolygonArea(XYList[0],XYList[1]);
+main();
